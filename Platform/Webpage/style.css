@@ -21,10 +21,10 @@ body {
   align-items: center;
   background-color: #16351a;
   padding: 10px;
-  width: calc(100% - 200px); /* Adjust width to account for vertical navbar */
+  width: calc(100% - 200px);
   position: fixed;
   top: 0;
-  left: 200px; /* Adjusted to account for the vertical navbar */
+  left: 200px;
 }
 
 .navbar a {
@@ -40,9 +40,9 @@ body {
 }
 
 .content {
-  padding: 80px 20px; /* Adjusted padding to account for fixed navbar */
-  width: calc(100% - 200px); /* Adjust width to account for vertical navbar */
-  margin-left: 220px; /* Increased margin to account for vertical navbar */
+  padding: 80px 20px;
+  width: calc(100% - 200px);
+  margin-left: 220px;
 }
 
 .vertical-navbar {
@@ -56,7 +56,7 @@ body {
   top: 0;
   left: 0;
   height: 100%;
-  padding-top: 80px; /* Adjusted padding to account for fixed top navbar */
+  padding-top: 80px;
 }
 
 .vertical-navbar a {
